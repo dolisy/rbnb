@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.3.4'
 
+# lewagon rails minimal template gems
+
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
 gem 'pg'
@@ -24,3 +26,8 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
+
+# added gems
+
+gem 'devise'
